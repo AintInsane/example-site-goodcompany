@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --backgroundAccent: blue;
+  --backgroundDark: black;
+  --backgroundDarkMedium: rgb(27, 27, 27);
+  --backgroundLight: white;
+  --backgroundLightMedium: #e2e2e2;
+  --backgroundHeader: #0A111E;
+}

@@ -1,0 +1,59 @@
+.SectionWithCta {
+    position: relative;
+    display: flex;
+}
+
+.SectionWithCta-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: white;
+}
+
+.SectionWithCta-bg_darkMedium {
+    background: var(--backgroundDarkMedium);
+}
+
+.SectionWithCta-bg_dark {
+    background: var(--backgroundDark);
+}
+
+.SectionWithCta-bg_top {
+    top: 0;
+    bottom: 50%;
+}
+
+.SectionWithCta-bg_bottom {
+    top: 50%;
+    bottom: 0;
+}
+
+.SectionWithCta-panel {
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+}
+
+.SectionWithCta-panelContainer {
+    width: 100%;
+    max-width: 360px;
+    padding: 16px 24px;
+}
+
+.SectionWithCta-panel_content .SectionWithCta-panelContainer {
+    margin: 0 0 0 auto;
+}
+
+.SectionWithCta-panel_form .SectionWithCta-panelContainer {
+    margin: 0 auto 0 0;
+}
+
+.SectionWithCta-panel_content {
+    background: var(--backgroundAccent);
+    color: white;
+}
+
+.SectionWithCta-panel_action .SectionWithCta-panelContainer {
+    background: var(--backgroundAccent);
+    color: white;
+}

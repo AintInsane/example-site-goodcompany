@@ -1,0 +1,10 @@
+.Footer {
+  background: var(--backgroundHeader);
+  color: white;
+}
+
+.Footer-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 24px;
+}
