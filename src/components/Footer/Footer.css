@@ -1,10 +1,89 @@
 .Footer {
-  background: var(--backgroundHeader);
-  color: white;
+    background: var(--backgroundHeader);
+    color: white;
+    padding: 64px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .Footer-container {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 16px 24px;
+    max-width: var(--containerWidth);
+
 }
+
+.Footer-row {
+    display: flex;
+    justify-content: space-between;
+     margin: 32px 0 32px 0;
+
+
+}
+
+.Footer-col_company {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.Footer-companyText {
+    font-size: 14px;
+    color: #838891;
+    width: 150px;
+}
+
+.Footer-col_links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.Footer-col_contact {
+    display: flex;
+    width: 25%;
+    margin-left: 48px;
+}
+
+.Footer-divider {
+    border: 0;
+    height: 1px;
+    background: #838891;
+    margin: 64px 0 0 0;
+}
+
+.Footer-listTitle,
+.Footer-formTitle {
+    color: #838891;
+}
+
+.Footer-listItems {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer-listItems > li {
+    display: block;
+    margin: 24px 0 0 0;
+}
+
+.Footer-formText {
+    margin: 24px 0 16px 0;
+}
+
+.Footer-formInput {
+    color: #838891;
+    background: none;
+    border: 0;
+}
+
+
+.Footer-socialIcon {
+    margin: 0 20px 0 0px;
+    width: 24px;
+    height: 24px;
+}
+
+

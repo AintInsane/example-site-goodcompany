@@ -5,33 +5,29 @@ import SectionWithCta from "../../components/SectionWithCta/SectionWithCta"
 import Footer from "../../components/Footer/Footer"
 import HomeCollaborateContent from "./HomeCollaborateContent"
 import HomeCollaborateForm from "./HomeCollaborateForm"
+import Offices from "./Offices";
 
 export default function Home() {
     return (
         <div>
 
-            <Header />
+            <Header/>
 
             <SectionWithForm
                 content={(
-                    <HomeCollaborateContent />
+                    <HomeCollaborateContent/>
                 )}
                 form={(
-                    <HomeCollaborateForm />
+                    <HomeCollaborateForm/>
                 )}
             />
 
             <Section background="darkMedium">
-
+                <Offices/>
             </Section>
 
-            <Section>cotent</Section>
 
-            <Section background="darkMedium" />
-
-            <SectionWithCta topBackground="darkMedium" bottomBackground="dark" />
-
-            <Footer />
+            <Footer/>
 
         </div>
     )

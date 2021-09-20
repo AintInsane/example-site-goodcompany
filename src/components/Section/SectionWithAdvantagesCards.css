@@ -1,0 +1,25 @@
+.SectionWithAdvantageCards {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 0px 100px 0px;
+
+
+
+}
+
+.SectionWithAdvantageCards-image {
+
+    width: 48px;
+    height: 48px;
+}
+
+.SectionWithAdvantageCards-title {
+
+
+}
+
+.SectionWithAdvantageCards-text {
+
+    color: #7394FF;
+}

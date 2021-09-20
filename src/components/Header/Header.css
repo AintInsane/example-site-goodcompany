@@ -3,45 +3,34 @@
     background: var(--backgroundHeader);
     color: white;
     flex-direction: column;
+
 }
 
 .Header-container {
-    max-width: 720px;
+    max-width: 920px;
     margin: 0 auto;
-    padding: 16px 24px;
+    padding: 32px 0px;
+
 }
 
-.slogan {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 16px 24px;
-}
-
-.about {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0px 24px 64px;
-    font-size: x-small;
-}
 
 .Header-nav {
     display: flex;
     flex-direction: row;
-    padding: 0px 24px;
     align-items: center;
+
+
+
 }
 
 .Header-navLogo {
     display: flex;
     color: pink;
-    padding: 0;
-    padding: 0px 24px;
     text-decoration: none;
     font-family: fantasy;
-    background-image: url(./hands.png);
     width: 60px;
     height: 60px;
-    margin-right: 5%;;
+
 }
 
 .Header-navLink {
@@ -49,4 +38,17 @@
     font-size: 30px;
     font-family: fantasy;
     text-decoration: none;
+    margin-left: 48px;
+
+}
+
+.Header-title {
+    font-size: 30px;
+    margin-top: 96px;
+}
+
+.Header-text {
+    width: 60%;
+    margin: 24px 0 96px 0;
+    color: silver;
 }

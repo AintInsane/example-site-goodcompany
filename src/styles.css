@@ -7,9 +7,10 @@ body {
 }
 
 :root {
+  --containerWidth: 960px;
   --backgroundAccent: blue;
   --backgroundDark: black;
-  --backgroundDarkMedium: rgb(27, 27, 27);
+  --backgroundDarkMedium: #14233D;
   --backgroundLight: white;
   --backgroundLightMedium: #e2e2e2;
   --backgroundHeader: #0A111E;

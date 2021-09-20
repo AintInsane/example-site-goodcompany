@@ -1,0 +1,62 @@
+
+.SectionWithBlocks {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.SectionWithBlocks-panel {
+    display: flex;
+    width: 400px;
+    /*height: 250px;*/
+    /*margin-bottom: -150px;*/
+    background:#0426A3;
+
+}
+.SectionWithBlocks-panelTwo {
+    /*height: 300px;*/
+    background: #0038FF;
+}
+.SectionWithBlocks-panelContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0 0 0 56px;
+}
+.SectionWithBlocks-title  {
+    color: white;
+    font-family: "Arial Rounded MT Bold";
+    margin: 0;
+
+}
+.SectionWithBlocks-text {
+    color: #6E8EED;
+    margin-bottom: 24px;
+    line-height: 30px;
+    width: 300px;
+
+
+
+}
+.SectionWithBlocks-text_two {
+    color: #5889FF;
+
+}
+.SectionWithBlocks-input {
+    width: 160px;
+    height: 40px;
+    background:#0426A3;
+    border:1px solid #e2e2e2;
+    color: white;
+
+}
+.inputTwo {
+    background: white;
+    color: #5889FF;
+
+}
+

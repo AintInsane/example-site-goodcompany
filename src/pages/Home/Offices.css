@@ -1,0 +1,33 @@
+.Offices {
+
+
+}
+.Offices-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Offices-list ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+}
+
+.Offices-list li {
+   margin: 8px 0 8px 0;
+    color: silver;
+}
+.Offices-list  address {
+    color: gray;
+    font-style: inherit;
+
+}
+
+
+.Offices-list h6 {
+    margin: 0;
+    color: silver;
+}
+
