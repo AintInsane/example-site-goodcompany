@@ -1,0 +1,16 @@
+.About-hero {
+    min-height: 360px;
+    padding-top: 80px;
+}
+
+.About-SectionContentWithImage_gradient {
+    color: white;
+    background: linear-gradient(to bottom,
+    var(--backgroundDark) 0%,
+    var(--backgroundDark) 20%,
+    var(--backgroundAccent) 300%,
+    var(--backgroundAccent) 100%
+    );
+
+
+}

@@ -1,0 +1,62 @@
+.Home {
+
+}
+
+/* Hero */
+.Home-hero {
+    min-height: 360px;
+    padding-top: 80px;
+
+
+
+}
+
+/* Collabo */
+.Home-collaborate {
+
+
+}
+
+.Home-collaborateContainer {
+    display: flex;
+}
+
+.Home-collaborateFeatures {
+    width: 40%;
+}
+
+.Home-collaborateFeature {
+    display: flex;
+    align-items: flex-start;
+    margin: 24px 0;
+}
+.Home-collaborateFeatureImage {
+    width: 48px;
+    margin-right: 16px;
+}
+.Home-collaborateFeatureCaption {
+    padding-top: 8px;
+}
+
+.Home-collaborateForm {
+    box-sizing: border-box;
+    width: 60%;
+    margin-top: -100px;
+    margin-bottom: -136px;
+    padding: 80px 0 80px 96px;
+}
+
+.Home-offices {
+    padding-top: 94px;
+
+}
+
+.Home-officesList {
+    list-style: none;
+    display: grid;
+    grid-gap: 32px;
+    grid-template: auto / 1fr 1fr 1fr;
+    margin: 96px 0 0;
+    padding: 0;
+
+}

@@ -1,28 +1,29 @@
+import Typography from "../../components/Typography/Typography";
 import './HomeCollaborateForm.css'
 
 export default function HomeCollaborateForm() {
     return (
-        <div className="HomeCollaborateForm">
-            <div className="HomeCollaborateForm-title">
+        <div className="HomeCollaborateForm" >
+            <Typography variant="h2" paragraph>
                 Let's collaborate!
-            </div>
-            <div className="HomeCollaborateForm-text">
-               Ready to begin our joutney?Drop us a message and we'll
+            </Typography>
+            <Typography  variant="text1" color="secondary">
+               Ready to begin our journey?Drop us a message and we'll
                 get in touch with your asap.
-            </div>
+            </Typography>
 
 
             <div className="HomeCollaborateForm-form">
 
                 <div className="HomeCollaborateForm-row">
-                    <div className="HomeCollaborateForm-field">
-                        <div>First name</div>
+                    <Typography className="HomeCollaborateForm-field">
+                        <Typography>First name</Typography>
                         <input className="HomeCollaborateForm-fieldInput" type="text"
                                placeholder="Type your name"
                         />
-                    </div>
+                    </Typography>
                     <div className="HomeCollaborateForm-field">
-                        <div>Last name</div>
+                        <Typography>Last name</Typography>
                         <input className="HomeCollaborateForm-fieldInput" type="text"
                                placeholder="Type your last name"
                         />
@@ -31,13 +32,13 @@ export default function HomeCollaborateForm() {
 
                 <div className="HomeCollaborateForm-row">
                     <div className="HomeCollaborateForm-field">
-                        <div>E-mail address</div>
+                        <Typography>E-mail address</Typography>
                         <input className="HomeCollaborateForm-fieldInput" type="email"
                                placeholder="e-mail@address.com"
                         />
                     </div>
                     <div className="HomeCollaborateForm-field">
-                        <div>Telephone number</div>
+                        <Typography>Telephone number</Typography>
                         <input className="HomeCollaborateForm-fieldInput" type="text"
                                placeholder="+0 000 000 00 00"
                         />
@@ -46,13 +47,13 @@ export default function HomeCollaborateForm() {
 
                 <div className="HomeCollaborateForm-row">
                     <div className="HomeCollaborateForm-field">
-                        <div>Budget</div>
+                        <Typography>Budget</Typography>
                         <input className="HomeCollaborateForm-fieldInput" type="text"
                                placeholder="Chose a budget"
                         />
                     </div>
                     <div className="HomeCollaborateForm-field">
-                        <div>Title</div>
+                        <Typography>Title</Typography>
                         <input className="HomeCollaborateForm-fieldInput" type="text"
                                placeholder="Type the title"
                         />
@@ -60,13 +61,13 @@ export default function HomeCollaborateForm() {
                 </div>
 
                 <div className="HomeCollaborateForm-field">
-                    <div className="inputcolor">Message</div>
+                    <Typography className="HomeCollaborateForm-message">Message</Typography>
                     <textarea className="HomeCollaborateForm-fieldInput"
                               placeholder="Type your message here"
                     />
                 </div>
             </div>
-            <input className="HomeCollaborateForm-submit" type="submit" value="Drop it in our inbox"/>
+            <input className="HomeCollaborateForm-button" type="button" value="Drop it in our inbox"/>
         </div>
     )
 }

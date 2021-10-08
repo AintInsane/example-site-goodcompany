@@ -1,54 +1,29 @@
 .Header {
 
-    background: var(--backgroundHeader);
-    color: white;
-    flex-direction: column;
-
 }
 
 .Header-container {
-    max-width: 920px;
-    margin: 0 auto;
-    padding: 32px 0px;
-
+    min-height: 128px;
+    display: flex;
+    align-items: center;
 }
-
 
 .Header-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
 
-
-
 }
 
-.Header-navLogo {
-    display: flex;
-    color: pink;
-    text-decoration: none;
-    font-family: fantasy;
-    width: 60px;
-    height: 60px;
-
+.Header-navLinks {
+    margin-left: 24px;
 }
 
+.Header-navLogo,
 .Header-navLink {
-    color: white;
-    font-size: 30px;
-    font-family: fantasy;
+    color: inherit;
     text-decoration: none;
-    margin-left: 48px;
-
 }
+.Header-navLink {
 
-.Header-title {
-    font-size: 30px;
-    margin-top: 96px;
-}
-
-.Header-text {
-    width: 60%;
-    margin: 24px 0 96px 0;
-    color: silver;
 }

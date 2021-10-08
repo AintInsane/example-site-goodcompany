@@ -1,0 +1,96 @@
+.Typography {
+    /*font: inherit;*/
+    color: inherit;
+}
+
+.Typography_color_light {
+    color: white;
+}
+.Typography_color_grey {
+    color: grey;
+}
+.Typography_color_blue {
+    color: dodgerblue;
+}
+/* variant: logo */
+.Typography_variant_logo {
+    font: var(--typography-logo);
+}
+.Typography_variant_logo.Typography_paragraph {
+    margin-bottom: 20px;
+}
+
+/* variant: h1 */
+.Typography_variant_h1 {
+    font: var(--typography-h1);
+}
+.Typography_variant_h1.Typography_paragraph {
+    margin-bottom: 24px;
+}
+
+/* variant: h2 */
+.Typography_variant_h2 {
+    font: var(--typography-h2);
+}
+.Typography_variant_h2.Typography_paragraph {
+    margin-bottom: 20px;
+}
+/* variant: h3 */
+.Typography_variant_h3 {
+    font: var(--typography-h3);
+}
+.Typography_variant_h3.Typography_paragraph {
+    margin-bottom: 18px;
+}
+
+/* variant: h4 */
+.Typography_variant_h4 {
+    font: var(--typography-h4);
+}
+.Typography_variant_h4.Typography_paragraph {
+    margin-bottom: 16px;
+}
+
+/* variant: text1 */
+.Typography_variant_text1 {
+    font: var(--typography-text1);
+}
+.Typography_variant_text1.Typography_paragraph {
+    margin-bottom: 24px;
+}
+
+/* variant: text2 */
+.Typography_variant_text2 {
+    font: var(--typography-text2);
+}
+.Typography_variant_text2.Typography_paragraph {
+    margin-bottom: 20px;
+}
+/* variant: text3 */
+.Typography_variant_text3 {
+    font: var(--typography-text3);
+}
+.Typography_variant_text3.Typography_paragraph {
+    margin-bottom: 16px;
+}
+/* variant: text4 */
+.Typography_variant_text4 {
+    font: var(--typography-text4);
+}
+.Typography_variant_text4.Typography_paragraph {
+    margin-bottom: 12px;
+}
+
+/* variant: text5 */
+.Typography_variant_text5 {
+    font: var(--typography-text5);
+}
+.Typography_variant_text5.Typography_paragraph {
+    margin-bottom: 12px;
+}
+.Typography_color_primary {
+opacity: 1;
+}
+.Typography_color_secondary {
+    opacity: .62;
+}

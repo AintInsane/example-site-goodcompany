@@ -1,0 +1,55 @@
+
+.SectionWithBlocks {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.SectionWithBlocks-panel {
+    display: flex;
+    width: 400px;
+    padding: 24px 24px 24px 24px;
+    background: var(--backgroundAccent)
+
+
+}
+
+.SectionWithBlocks-panelStart {
+    background: var(--backgroundAccentMedium);
+
+}
+
+.SectionWithBlocks-panelEnd {
+
+
+}
+
+.SectionWithBlocks-panelContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+
+.SectionWithBlocks-input {
+    width: 160px;
+    height: 40px;
+    background: var(--backgroundAccentMedium);
+    border: 1px solid #e2e2e2;
+    color: white;
+
+}
+
+.SectionWithBlocks-inputTwo {
+    background: white;
+    color: #5889FF;
+
+}
+

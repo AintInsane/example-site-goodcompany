@@ -14,14 +14,6 @@
 
 }
 
-.HomeCollaborateForm-title {
-    font-size: 30px;
-}
-
-.HomeCollaborateForm-text {
-    margin: 4px 0 0 0;
-    color: deepskyblue;
-}
 
 
 .HomeCollaborateForm-row {
@@ -42,9 +34,9 @@
 .HomeCollaborateForm-fieldInput {
     background-color: #002FCF;
     border: 0;
-    margin: 8px 4px 0 0px;
+    margin: 8px 4px 0 0;
     height: 32px;
-    color: white ;
+    outline: none;
 
 }
 .HomeCollaborateForm-fieldInput::placeholder {
@@ -61,9 +53,9 @@ textarea.HomeCollaborateForm-fieldInput {
     margin-bottom: 36px;
 
 }
-.HomeCollaborateForm-submit {
+.HomeCollaborateForm-button {
     width: 164px;
     height: 42px;
-    color: blue;
+    color: var(--backgroundAccent);
     font-weight: 700;
 }

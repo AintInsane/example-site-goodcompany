@@ -1,73 +1,71 @@
-import "./Footer.css"
+import {NavLink} from 'react-router-dom'
 import Facebook from '../Images/FaceBookIcon.png'
 import Twitter from '../Images/TWITTERicon.png'
 import Instagram from '../Images/InstagramIcon.png'
 import In from '../Images/InIcon.png'
+import Container from "../Container/Container";
+import Typography from "../Typography/Typography";
+import Surface from "../Surface/Surface";
+import "./Footer.css"
 
-export default function Footer(props) {
+
+export default function Footer() {
     return (
-        <div className="Footer">
+        <Surface bg="deepDark" className="Footer">
 
-            <div className="Footer-container">
+            <Container className="Footer-container">
 
                 <div className="Footer-row">
+                    <ul className="Footer-col Footer-col_company">
+                        <li>
+                            <Typography variant="logo" color="primary" paragraph>company</Typography>
+                            <Typography variant="text2" color="secondary"> Empowering companies
+                                at the intersection of UX Design,
+                                Development & Business
+                            </Typography>
+                        </li>
+                    </ul>
 
-                    <div className="Footer-col Footer-col_company">
-                        <h3 className="Footer-companyTitle">Good company</h3>
-                        <div className="Footer-companyText">
-                            Empowering companies
-                            at the intersection of UX Design,
-                            Development & Business
-                        </div>
-                    </div>
 
-                    <div className="Footer-col Footer-col_links">
+                    <ul className="Footer-col Footer-col_links">
+                        <li className="Footer-col_list">
+                            <Typography variant="text3" color="secondary" paragraph>Services</Typography>
+                            <Typography variant="text2" color="primary" paragraph> <a href={''}>Case Studies</a></Typography>
+                            <Typography variant="text2" color="primary" paragraph><a href={''}>Solutions</a></Typography>
+                            <Typography variant="text2" color="primary"><a href={''}>Industries</a></Typography>
+                        </li>
 
-                        <div className="Footer-list">
-                            <h3 className="Footer-listTitle">Services</h3>
-                            <ul className="Footer-listItems">
-                                <li>Service</li>
-                                <li>Service</li>
-                                <li>Service</li>
-                            </ul>
-                        </div>
+                        <li className="Footer-col_list">
+                            <Typography variant="text3" color="secondary" paragraph>Why company</Typography>
+                            <Typography variant="text2" color="primary" paragraph><a href={'/about'}>About us</a></Typography>
+                            <Typography variant="text2" color="primary" paragraph><a href={''}>Leadership</a></Typography>
+                            <Typography variant="text2" color="primary"><a href={''}>Careers</a></Typography>
+                        </li>
 
-                        <div className="Footer-list">
-                            <h3 className="Footer-listTitle">Services</h3>
-                            <ul className="Footer-listItems">
-                                <li>Service</li>
-                                <li>Service</li>
-                                <li>Service</li>
-                            </ul>
-                        </div>
+                        <li className="Footer-col_list">
+                            <Typography variant="text3" color="secondary" paragraph>Learn more</Typography>
+                            <Typography variant="text2" color="primary" paragraph><a href={''}>Insights</a></Typography>
+                            <Typography variant="text2" color="primary" paragraph><a href={''}>FAQ</a></Typography>
+                            <Typography variant="text2" color="primary"><a href={''}>Contact us</a></Typography>
+                        </li>
+                    </ul>
 
-                        <div className="Footer-list">
-                            <h3 className="Footer-listTitle">Services</h3>
-                            <ul className="Footer-listItems">
-                                <li>Service</li>
-                                <li>Service</li>
-                                <li>Service</li>
-                            </ul>
-                        </div>
 
-                    </div>
-
-                    <div className="Footer-col Footer-col_contact">
-
-                        <div className="Footer-form">
-                            <h3 className="Footer-formTitle">Stay up to date</h3>
-                            <div className="Footer-formText">
-                                Sign up to our newsletter for instant access
-                                to our insights
-                            </div>
+                    <ul className="Footer-col Footer-col_contact">
+                        <li>
+                            <Typography variant="text2" color="secondary" paragraph>Stay up to date</Typography>
+                            <Typography variant="text4" color="primary" paragraph>
+                                Sign up to our newsletter for instant access to our insights
+                            </Typography>
                             <input
                                 className="Footer-formInput"
                                 type="mail"
-                                placeholder="Your e-mail adress"
+                                placeholder="Your e-mail address"
                             />
-                        </div>
+                        </li>
 
-                    </div>
+
+                    </ul>
                 </div>
 
                 <div className="Footer-divider"/>
@@ -75,20 +73,22 @@ export default function Footer(props) {
                 <div className="Footer-row">
 
                     <div className="Footer-social">
-                        <img className="Footer-socialIcon" src={Facebook}/>
-                        <img className="Footer-socialIcon" src={Twitter}/>
-                        <img className="Footer-socialIcon" src={Instagram}/>
-                        <img className="Footer-socialIcon" src={In}/>
+
+
+                        <div className="Footer-socialIcon_box"><a href="https://facebook.com"> <img className="Footer-socialIcon" src={Facebook}/></a></div>
+                        <div className="Footer-socialIcon_box"><a href="https://twitter.com"> <img className="Footer-socialIcon" src={Twitter}/></a></div>
+                        <div className="Footer-socialIcon_box"><a href="https://www.instagram.com"> <img className="Footer-socialIcon" src={Instagram}/></a></div>
+                        <div className="Footer-socialIcon_box"><a href="https://www.linkedin.cn"> <img className="Footer-socialIcon" src={In}/></a></div>
                     </div>
 
-                    <div className="Footer-address">www.site.com</div>
+              <Typography variant="h5" color="secondary">www.site.com</Typography>
 
-                    <div className="Footer-privacy">Privacy policy</div>
+                    <Typography variant="h5" color="secondary">Privacy policy</Typography>
 
                 </div>
 
-            </div>
+            </Container>
 
-        </div>
+        </Surface>
     )
 }

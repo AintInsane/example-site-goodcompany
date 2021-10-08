@@ -1,0 +1,23 @@
+.Vectors {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8%;
+    margin: 0 0 0 0;
+}
+
+.Vectors-vector_start {
+
+
+    background: var(--backgroundLight);
+    width: 5px;
+    height: 64px;
+    margin-bottom: 64px;
+}
+
+.Vectors-vector_end {
+
+    background:var(--backgroundAccent);
+    width: 5px;
+    height: 64px;
+    margin-top: 64px;
+}

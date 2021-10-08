@@ -1,3 +1,4 @@
+import Typography from "../Typography/Typography";
 import './SectionWithAdvantagesCards.css'
 export default function SectionWithAdvantageCards(props) {
     return (
@@ -5,7 +6,7 @@ export default function SectionWithAdvantageCards(props) {
           <img className="SectionWithAdvantageCards-image" src={props.cardImageUrl}/>
            <div className="SectionWithAdvantageCards-content">
                <h3 className="SectionWithAdvantageCards-title">{props.cardtitle}</h3>
-               <div className="SectionWithAdvantageCards-text">{props.cardtext}</div>
+               <Typography className="SectionWithAdvantageCards-text">{props.cardtext}</Typography>
            </div>
       </div>
     )

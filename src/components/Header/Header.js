@@ -1,25 +1,29 @@
-import './hands.png'
-import "./Header.css"
-import HomePageUrl from "../Images/HomePage.png"
 import {NavLink} from 'react-router-dom'
+import Typography from "../Typography/Typography";
+import Surface from "../Surface/Surface";
+import Container from "../Container/Container";
+import "./Header.css"
 
-export default function Header(props) {
+export default function Header() {
     return (
-        <div className="Header">
-            <div className="Header-container">
+        <Surface bg="dark" className="Header">
+            <Container className="Header-container">
+
                 <div className="Header-nav">
                     <NavLink className="Header-navLogo" to="/">
-                        <img src={HomePageUrl}/>
+                        <Typography variant="logo" color="secondary"  >company</Typography>
                     </NavLink>
-                    <NavLink className="Header-navLink" to="/about">About</NavLink>
-                </div>
-                <div className="Header-title">Good company</div>
-                <div className="Header-text">
-                    Our mission is simple: Work with the best, design with a purpose,
-                    and engineer for a sustainable future.
+
+                    <div className="Header-navLinks">
+                        <NavLink className="Header-navLink" to="/about">
+                            <Typography variant="text2" color="primary">About</Typography>
+                        </NavLink>
+                    </div>
 
                 </div>
-            </div>
-        </div>
+
+            </Container>
+        </Surface>
+
     )
 }

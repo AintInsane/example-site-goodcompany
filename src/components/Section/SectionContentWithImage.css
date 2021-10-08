@@ -28,13 +28,12 @@
 
 .SectionContentWithImage-content {
     flex-grow: 1;
+ list-style: none;
 }
 
 .SectionContentWithImage-title {
-    margin: 0 0 16px;
-    font-weight: 900;
-    font-size: 20px;
+
 }
 .SectionContentWithImage-text {
-    font-size: 16px;
+
 }

@@ -3,8 +3,7 @@
     flex-direction: column;
     width: 25%;
     margin: 0 0px 100px 0px;
-
-
+    color: white;
 
 }
 
@@ -14,12 +13,6 @@
     height: 48px;
 }
 
-.SectionWithAdvantageCards-title {
-
-
-}
-
 .SectionWithAdvantageCards-text {
-
-    color: #7394FF;
+    color: dodgerblue;
 }

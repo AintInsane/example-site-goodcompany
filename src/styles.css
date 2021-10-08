@@ -1,17 +1,31 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 :root {
-  --containerWidth: 960px;
-  --backgroundAccent: blue;
-  --backgroundDark: black;
-  --backgroundDarkMedium: #14233D;
-  --backgroundLight: white;
-  --backgroundLightMedium: #e2e2e2;
-  --backgroundHeader: #0A111E;
+    --containerWidth: 1200px;
+    --backgroundDark: #0A111E;
+    --backgroundDeepDark: #070D1D;
+    --backgroundAccent: blue;
+    --backgroundAccentMedium: #0426A3;
+    --backgroundLight: white;
+
+
+
+    --typography-logo: 300 32px/32px 'Roboto', sans-serif;
+    --typography-h1: 700 48px/56px 'Roboto', sans-serif;
+    --typography-h2: 700 36px/42px 'Roboto', sans-serif;
+    --typography-h3: 700 28px/36px 'Roboto', sans-serif;
+    --typography-h4: 700 20px/30px 'Roboto', sans-serif;
+    --typography-text1: 100 24px/32px 'Roboto', sans-serif;
+    --typography-text2: 300 18px/30px 'Roboto', sans-serif;
+    --typography-text3: 300 16px/28px 'Roboto', sans-serif;
+    --typography-text4: 300 14px/24px 'Roboto', sans-serif;
+    --typography-text5: 300 12px/20px 'Roboto', sans-serif;
+
 }

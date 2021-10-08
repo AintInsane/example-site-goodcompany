@@ -1,0 +1,66 @@
+.Surface {
+
+}
+
+.Surface_bgStickToStart,
+.Surface_bgStickToEnd {
+    position: relative;
+}
+
+.Surface_bgStickToStart::before,
+.Surface_bgStickToEnd::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+}
+
+.Surface_bgStickToStart::before {
+    left: -100vw;
+}
+
+.Surface_bgStickToEnd::after {
+    right: -100vw;
+}
+
+.Surface_bg_light {
+    color: black;
+    background-color: var(--backgroundLight);
+}
+
+.Surface_bg_dark {
+    color: white;
+    background-color: var(--backgroundDark);
+}
+.Surface_bg_deepDark {
+    color: white;
+    background: var(--backgroundDeepDark);
+}
+
+.Surface_bg_lightToDark {
+    background: linear-gradient(to bottom, var(--backgroundLight) 0%, var(--backgroundLight) 50%, var(--backgroundDark) 50%, var(--backgroundDark) 100%);
+}
+
+.Surface_bg_darkToLight {
+background: linear-gradient(to top,
+var(--backgroundLight) 0%,
+var(--backgroundLight) 50%,
+var(--backgroundDark) 50%,
+var(--backgroundDark) 100%
+);
+}
+
+
+
+.Surface_bg_accent,
+.Surface_bg_accent.Surface_bgStickToStart::before,
+.Surface_bg_accent.Surface_bgStickToEnd::after {
+    background-color: var(--backgroundAccent);
+    color: #fff;
+}
+/*colors
+podumat' kak nazvat'
+
+*/
