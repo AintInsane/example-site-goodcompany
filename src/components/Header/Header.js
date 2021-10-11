@@ -10,14 +10,21 @@ export default function Header() {
             <Container className="Header-container">
 
                 <div className="Header-nav">
+
                     <NavLink className="Header-navLogo" to="/">
                         <Typography variant="logo" color="secondary"  >company</Typography>
                     </NavLink>
 
                     <div className="Header-navLinks">
-                        <NavLink className="Header-navLink" to="/about">
+
+                        <NavLink className="Header-navLink" activeClassName="Header-navLink_active" to="/about">
                             <Typography variant="text2" color="primary">About</Typography>
                         </NavLink>
+
+                        <NavLink className="Header-navLink" to="/career">
+                            <Typography variant="text2" color="primary">Career</Typography>
+                        </NavLink>
+
                     </div>
 
                 </div>
