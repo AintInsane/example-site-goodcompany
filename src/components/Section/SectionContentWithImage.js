@@ -9,6 +9,7 @@ export default function SectionContentWithImage(props) {
                 <li className="SectionContentWithImage-title">{props.title}</li>
                 <li className="SectionContentWithImage-text">{props.text}</li>
             </ul>
+
         </div>
     )
 }

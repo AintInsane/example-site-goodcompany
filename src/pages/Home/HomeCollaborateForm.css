@@ -2,22 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 0 0 0 0;
 
 }
 
 .HomeCollaborateForm-form {
     display: flex;
     flex-direction: column;
-
     margin-top: 48px;
     align-items: flex-start;
 
 }
 
 
-
 .HomeCollaborateForm-row {
     display: flex;
+
 
 
 }
@@ -27,35 +27,41 @@
 }
 
 .HomeCollaborateForm-field {
-    margin: 16px 8px 0 0;
+    margin: 12px 8px 0 0;
 
 }
 
 .HomeCollaborateForm-fieldInput {
     background-color: #002FCF;
     border: 0;
-    margin: 8px 4px 0 0;
-    height: 32px;
+    margin: 8px 32px 40px 0;
+    width: 276px;
+    height: 64px;
     outline: none;
+    color: white;
+
 
 }
+
 .HomeCollaborateForm-fieldInput::placeholder {
-    color: lightslategray;
+    color: #2752E3;
     padding: 16px;
+    font-size: 20px;
 
 }
 
 textarea.HomeCollaborateForm-fieldInput {
     display: block;
-    width: 185%;
+    width: 592px;
     resize: none;
-    height: 100px;
+    height: 158px;
     margin-bottom: 36px;
 
 }
+
 .HomeCollaborateForm-button {
-    width: 164px;
-    height: 42px;
+    width: 244px;
+    height: 56px;
     color: var(--backgroundAccent);
     font-weight: 700;
 }

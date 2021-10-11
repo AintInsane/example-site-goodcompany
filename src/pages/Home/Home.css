@@ -4,7 +4,7 @@
 
 /* Hero */
 .Home-hero {
-    min-height: 360px;
+    min-height: 480px;
     padding-top: 80px;
 
 
@@ -22,13 +22,17 @@
 }
 
 .Home-collaborateFeatures {
+    display: flex;
+    flex-direction: column;
+
     width: 40%;
+    padding: 194px 0 0 0;
 }
 
 .Home-collaborateFeature {
     display: flex;
     align-items: flex-start;
-    margin: 24px 0;
+    margin: 0 0 90px 0;
 }
 .Home-collaborateFeatureImage {
     width: 48px;
@@ -41,9 +45,10 @@
 .Home-collaborateForm {
     box-sizing: border-box;
     width: 60%;
-    margin-top: -100px;
-    margin-bottom: -136px;
+    margin-top: -86px;
+    margin-bottom: -140px;
     padding: 80px 0 80px 96px;
+
 }
 
 .Home-offices {
@@ -56,7 +61,7 @@
     display: grid;
     grid-gap: 32px;
     grid-template: auto / 1fr 1fr 1fr;
-    margin: 96px 0 0;
+    margin: 100px 0 0;
     padding: 0;
 
 }

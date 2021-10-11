@@ -50,6 +50,7 @@ export default function About() {
                             a shiny coat a paint on a poorly product, then bailed,
                             leaving their clients high and dry.
                         </Typography>)}
+                        button="Let's talk"
                     />
 
                     <SectionContentWithImage
@@ -90,6 +91,8 @@ export default function About() {
                             viral video star.These are the threads from
                             the rich tapestry that is Good Company.
                         </Typography>)}
+
+
                     />
 
 

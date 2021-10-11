@@ -13,8 +13,8 @@
 
 .SectionContentWithImage-image {
     flex-shrink: 0;
-    width: 240px;
-    height: 320px;
+    width: 286px;
+    height: 376px;
     margin-left: 0;
     margin-right: 64px;
     object-fit: cover;
@@ -36,4 +36,11 @@
 }
 .SectionContentWithImage-text {
 
+}
+.SectionContentWithImage-button {
+    width: 160px;
+    height: 48px;
+    border: 0;
+    margin-top: 28px;
+    opacity: 0.5;
 }
