@@ -6,14 +6,10 @@
 .Home-hero {
     min-height: 480px;
     padding-top: 80px;
-
-
-
 }
 
 /* Collabo */
 .Home-collaborate {
-
 
 }
 
@@ -24,7 +20,6 @@
 .Home-collaborateFeatures {
     display: flex;
     flex-direction: column;
-
     width: 40%;
     padding: 194px 0 0 0;
 }
@@ -48,12 +43,10 @@
     margin-top: -86px;
     margin-bottom: -140px;
     padding: 80px 0 80px 96px;
-
 }
 
 .Home-offices {
     padding-top: 94px;
-
 }
 
 .Home-officesList {

@@ -15,59 +15,83 @@ export default function HomeCollaborateForm() {
 
             <div className="HomeCollaborateForm-form">
 
-                <div className="HomeCollaborateForm-row">
-                    <Typography className="HomeCollaborateForm-field">
-                        <Typography variant="h4" paragraph>First name</Typography>
-                        <input className="HomeCollaborateForm-fieldInput" type="text"
-                               placeholder="Type your name"
+                <div className="HomeCollaborateForm-formRow">
+
+                    <label className="HomeCollaborateForm-field">
+                        <div className="HomeCollaborateForm-fieldLabel">First name</div>
+                        <input
+                            className="HomeCollaborateForm-fieldInput"
+                            placeholder="Type your name"
                         />
-                    </Typography>
-                    <div className="HomeCollaborateForm-field">
-                        <Typography variant="h4" paragraph>Last name</Typography>
-                        <input className="HomeCollaborateForm-fieldInput" type="text"
-                               placeholder="Type your last name"
+                    </label>
+
+                    <label className="HomeCollaborateForm-field">
+                        <div className="HomeCollaborateForm-fieldLabel">Last name</div>
+                        <input
+                            className="HomeCollaborateForm-fieldInput"
+                            placeholder="Type your last name"
                         />
-                    </div>
+                    </label>
+
                 </div>
 
-                <div className="HomeCollaborateForm-row">
-                    <div className="HomeCollaborateForm-field">
-                        <Typography variant="h4" paragraph>E-mail address</Typography>
-                        <input className="HomeCollaborateForm-fieldInput" type="email"
-                               placeholder="e-mail@address.com"
+                <div className="HomeCollaborateForm-formRow">
+
+                    <label className="HomeCollaborateForm-field">
+                        <div className="HomeCollaborateForm-fieldLabel">E-mail address</div>
+                        <input
+                            className="HomeCollaborateForm-fieldInput"
+                            placeholder="email@example.com"
                         />
-                    </div>
-                    <div className="HomeCollaborateForm-field">
-                        <Typography variant="h4" paragraph>Telephone number</Typography>
-                        <input className="HomeCollaborateForm-fieldInput" type="text"
-                               placeholder="+0 000 000 00 00"
+                    </label>
+
+                    <label className="HomeCollaborateForm-field">
+                        <div className="HomeCollaborateForm-fieldLabel">Telephone number</div>
+                        <input
+                            className="HomeCollaborateForm-fieldInput"
+                            placeholder="+0 000 000 00 00"
                         />
-                    </div>
+                    </label>
+
                 </div>
 
-                <div className="HomeCollaborateForm-row">
-                    <div className="HomeCollaborateForm-field">
-                        <Typography variant="h4" paragraph>Budget</Typography>
-                        <input className="HomeCollaborateForm-fieldInput" type="text"
-                               placeholder="Chose a budget"
+                <div className="HomeCollaborateForm-formRow">
+
+                    <label className="HomeCollaborateForm-field">
+                        <div className="HomeCollaborateForm-fieldLabel">Budget</div>
+                        <input
+                            className="HomeCollaborateForm-fieldInput"
+                            placeholder="Chose a budget"
                         />
-                    </div>
-                    <div className="HomeCollaborateForm-field">
-                        <Typography variant="h4" paragraph>Title</Typography>
-                        <input className="HomeCollaborateForm-fieldInput" type="text"
-                               placeholder="Type the title"
+                    </label>
+
+                    <label className="HomeCollaborateForm-field">
+                        <div className="HomeCollaborateForm-fieldLabel">Title</div>
+                        <input
+                            className="HomeCollaborateForm-fieldInput"
+                            placeholder="Type the title"
                         />
-                    </div>
+                    </label>
+
                 </div>
 
-                <div className="HomeCollaborateForm-field">
-                    <Typography className="HomeCollaborateForm-message" variant="h4" paragraph>Message</Typography>
-                    <textarea className="HomeCollaborateForm-fieldInput"
-                              placeholder="Type your message here"
-                    />
+                <div className="HomeCollaborateForm-formRow">
+
+                    <label className="HomeCollaborateForm-field">
+                        <div className="HomeCollaborateForm-fieldLabel">Message</div>
+                        <textarea
+                            className="HomeCollaborateForm-fieldInput"
+                            placeholder="Type your message here"
+                            rows="5"
+                        />
+                    </label>
+
                 </div>
+
             </div>
+
             <input className="HomeCollaborateForm-button" type="button" value="Drop it in our inbox"/>
+
         </div>
     )
 }

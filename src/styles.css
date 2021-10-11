@@ -8,14 +8,14 @@ body {
 }
 
 :root {
+
     --containerWidth: 1200px;
+
     --backgroundDark: #0A111E;
     --backgroundDeepDark: #070D1D;
     --backgroundAccent: blue;
     --backgroundAccentMedium: #0426A3;
     --backgroundLight: white;
-
-
 
     --typography-logo: 300 32px/32px 'Roboto', sans-serif;
     --typography-h1: 700 48px/56px 'Roboto', sans-serif;
