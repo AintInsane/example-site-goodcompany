@@ -1,29 +1,37 @@
 
 .SectionWithBlocks {
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 248px;
 
 
 }
 
+.AboutSectionWithBlocks-container {
+    display: flex;
+}
+
 .SectionWithBlocks-panel {
     display: flex;
-    width: 400px;
-    padding: 24px 24px 24px 24px;
-    background: var(--backgroundAccent)
+    width: 50%;
+    padding: 106px 24px;
+    background: var(--backgroundAccentMedium);
+    text-align: center;
+    justify-content: center;
 
 
 }
 
 .SectionWithBlocks-panelStart {
-    background: var(--backgroundAccentMedium);
+    display: flex;
+
+    padding: 64px 0;
 
 }
 
 .SectionWithBlocks-panelEnd {
-
+background: var(--backgroundAccent);
 
 }
 
@@ -39,16 +47,18 @@
 
 
 .SectionWithBlocks-input {
-    width: 160px;
-    height: 40px;
-    background: var(--backgroundAccentMedium);
+    width: auto;
+    height: 64px;
+    font-size: 20px;
+    background: inherit;
     border: 1px solid #e2e2e2;
     color: white;
+    padding: 0 54px;
 
 }
 
 .SectionWithBlocks-inputTwo {
-    background: white;
+    background: var(--backgroundLight);
     color: #5889FF;
 
 }

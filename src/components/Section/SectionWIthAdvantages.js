@@ -1,11 +1,11 @@
-import cardImage1Url from '../Images/cardimage1.png'
-import cardImage2Url from '../Images/cardimage2.png'
-import cardImage3Url from '../Images/cardimage3.png'
-import cardImage4Url from '../Images/cardimage4.png'
-import cardImage5Url from '../Images/cardimage5.png'
-import cardImage6Url from '../Images/cardimage6.png'
-import cardImage7Url from '../Images/cardimage7.png'
-import cardImage8Url from '../Images/cardimage5.png'
+import cardImage1Url from '../Images/AboutSectionWithAdvantages/research.png'
+import cardImage2Url from '../Images/AboutSectionWithAdvantages/chronometer.png'
+import cardImage3Url from '../Images/AboutSectionWithAdvantages/connections.png'
+import cardImage4Url from '../Images/AboutSectionWithAdvantages/handshake.png'
+import cardImage5Url from '../Images/AboutSectionWithAdvantages/brain.png'
+import cardImage6Url from '../Images/AboutSectionWithAdvantages/team.png'
+import cardImage7Url from '../Images/AboutSectionWithAdvantages/teamwork.png'
+import cardImage8Url from '../Images/AboutSectionWithAdvantages/idea.png'
 import Typography from "../Typography/Typography";
 import SectionWithAdvantageCards from "./SectionWithAdvantageCards";
 import './SectionWithAdvantages.css'
@@ -16,49 +16,49 @@ export default function SectionWithAdvantages() {
         <div className="SectionWithAdvantages">
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage1Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Full transparency</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage2Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Real time status</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage3Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Agile process</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage4Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Trust & reliability</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage5Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Heavy involvement</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage6Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Onsite collaboration</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage7Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Dedicated teams</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />
             <SectionWithAdvantageCards
                 cardImageUrl={cardImage8Url}
-                cardtitle={(<Typography>We're your partner!</Typography>)}
+                cardtitle={(<Typography>Innovation & strategy</Typography>)}
                 cardtext={(<Typography>Because we're more than just on
                         agency.We're your partner!</Typography>)}
             />

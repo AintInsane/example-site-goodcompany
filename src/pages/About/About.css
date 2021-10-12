@@ -14,3 +14,18 @@
 
 
 }
+.AboutSectionContentWithImage-button1 {
+    font: var(--typography-h4);
+    padding: 18px 30px;
+    border: none;
+
+
+}
+.AboutSectionContentWithImage-button2 {
+    font: var(--typography-h4);
+    padding: 18px 30px;
+    background: var(--backgroundLight);
+    border: none;
+    opacity: 0.2;
+
+}

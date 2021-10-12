@@ -1,20 +1,22 @@
 import Typography from "../../components/Typography/Typography";
 import Surface from "../../components/Surface/Surface";
 import "./AboutSectionWithBlocks.css"
+import Container from "../../components/Container/Container";
 
 export default function AboutSectionWithBlocks() {
 
     return (
-        <Surface bg="lightToDark" className="SectionWithBlocks">
+
+        <div className="SectionWithBlocks">
 
             <div className="SectionWithBlocks-panel SectionWithBlocks-panelStart">
                 <div className="SectionWithBlocks-panelContent">
-                    <Typography variant="h3" color="light" paragraph>
+                    <Typography variant="h3" paragraph>
                         Work with us
                     </Typography>
-                    <Typography variant="text4" color="blue" paragraph>
-                        Our mission is simple:Work with the best, design
-                        with a purpose, and engineer for a sustainable
+                    <Typography className="SectionWithBlocks-text" variant="text2" color="secondary" paragraph>
+                        Our mission is simple:Work with the best, design <br/>
+                        with a purpose, and engineer for a sustainable <br/>
                         future.
                     </Typography>
                     <input className="SectionWithBlocks-input" type="button"
@@ -25,19 +27,14 @@ export default function AboutSectionWithBlocks() {
 
             <div className="SectionWithBlocks-panel SectionWithBlocks-panelEnd">
                 <div className="SectionWithBlocks-panelContent">
-                    <Typography  variant="h3" color="light" paragraph>
+                    <Typography  variant="h3" paragraph>
                         Work with us
                     </Typography>
-                    <Typography  variant="text4" color="blue" paragraph>
-                        Our process may be data-driven, but our
-                        projects are fueled by something much
+                    <Typography className="SectionWithBlocks-text" variant="text2" color="secondary" paragraph>
+                        Our process may be data-driven, but our <br/>
+                        projects are fueled by something much <br/>
                         stronger: passion.
-                        Our process may be data-driven, but our
-                        projects are fueled by something much
-                        stronger: passion.
-                        Our process may be data-driven, but our
-                        projects are fueled by something much
-                        stronger: passion.
+
 
                     </Typography>
                     <input className="SectionWithBlocks-input SectionWithBlocks-inputTwo" type="button"
@@ -46,7 +43,8 @@ export default function AboutSectionWithBlocks() {
                 </div>
             </div>
 
-        </Surface>
+        </div>
+
     )
 }
 

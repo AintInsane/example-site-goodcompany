@@ -22,7 +22,7 @@ export default function About() {
 
             <Header/>
 
-            <Surface className="About-hero" bg="dark" >
+            <Surface className="About-hero" bg="dark">
 
                 <Container>
                     <Typography variant="h1" paragraph>About us</Typography>
@@ -50,7 +50,7 @@ export default function About() {
                             a shiny coat a paint on a poorly product, then bailed,
                             leaving their clients high and dry.
                         </Typography>)}
-                        button="Let's talk"
+                        button={(<input className="AboutSectionContentWithImage-button1" type="button" value="Let's talk &#8594;"/>)}
                     />
 
                     <SectionContentWithImage
@@ -73,8 +73,12 @@ export default function About() {
             </Surface>
 
 
-            <Surface className="About-SectionContentWithImage_gradient" >
-                <AboutSectionWithBlocks/>
+            <Surface className="About-SectionContentWithImage_gradient">
+                <Surface bg="lightToDark">
+                    <Container>
+                        <AboutSectionWithBlocks/>
+                    </Container>
+                </Surface>
                 <Container>
 
 
@@ -91,6 +95,8 @@ export default function About() {
                             viral video star.These are the threads from
                             the rich tapestry that is Good Company.
                         </Typography>)}
+                        button={(<input className="AboutSectionContentWithImage-button2" type="button" value="Learn more &#8594;"/>)}
+
 
 
                     />
@@ -109,6 +115,7 @@ export default function About() {
                             viral video star.These are the threads from
                             the rich tapestry that is Good Company.
                         </Typography>)}
+
                     />
 
 

@@ -1,4 +1,5 @@
 import './SectionContentWithImage.css'
+import Typography from "../Typography/Typography";
 
 export default function SectionContentWithImage(props) {
 
@@ -8,6 +9,7 @@ export default function SectionContentWithImage(props) {
             <ul className="SectionContentWithImage-content">
                 <li className="SectionContentWithImage-title">{props.title}</li>
                 <li className="SectionContentWithImage-text">{props.text}</li>
+                <div className="SectionContentWithImage-button" >{props.button}</div>
             </ul>
 
         </div>
