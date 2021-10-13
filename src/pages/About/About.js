@@ -23,15 +23,14 @@ export default function About() {
             <Header/>
 
             <Surface className="About-hero" bg="dark">
-
                 <Container>
                     <Typography variant="h1" paragraph>About us</Typography>
                     <Typography variant="text2" color="secondary" paragraph>
                         Our mission is simple: Work with the best, design with a purpose,
                         and engineer for a sustainable future.
                     </Typography>
-                </Container>
 
+                </Container>
             </Surface>
             <Vectors/>
 
@@ -50,7 +49,8 @@ export default function About() {
                             a shiny coat a paint on a poorly product, then bailed,
                             leaving their clients high and dry.
                         </Typography>)}
-                        button={(<input className="AboutSectionContentWithImage-button1" type="button" value="Let's talk &#8594;"/>)}
+                        button={(<input className="AboutSectionContentWithImage-button1" type="button"
+                                        value="Let's talk &#8594;"/>)}
                     />
 
                     <SectionContentWithImage
@@ -79,9 +79,8 @@ export default function About() {
                         <AboutSectionWithBlocks/>
                     </Container>
                 </Surface>
+
                 <Container>
-
-
                     <SectionContentWithImage
                         imagePlacement="start"
                         imageUrl={AboutImgThreeUrl}
@@ -95,8 +94,8 @@ export default function About() {
                             viral video star.These are the threads from
                             the rich tapestry that is Good Company.
                         </Typography>)}
-                        button={(<input className="AboutSectionContentWithImage-button2" type="button" value="Learn more &#8594;"/>)}
-
+                        button={(<input className="AboutSectionContentWithImage-button2" type="button"
+                                        value="Learn more &#8594;"/>)}
 
 
                     />
@@ -114,14 +113,13 @@ export default function About() {
                             employs booth a farmer Army engineers and a
                             viral video star.These are the threads from
                             the rich tapestry that is Good Company.
+
                         </Typography>)}
+                      paragraph
 
                     />
 
 
-                </Container>
-
-                <Container>
                     <SectionWithAdvantages/>
                 </Container>
             </Surface>

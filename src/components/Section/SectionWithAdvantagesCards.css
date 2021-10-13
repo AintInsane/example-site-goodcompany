@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-    margin: 0 0px 100px 0px;
+    margin: 0 0px 80px 0px;
     color: white;
 
 }
 
 .SectionWithAdvantageCards-image {
     filter: invert(100%);
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
 }
 
 .SectionWithAdvantageCards-text {

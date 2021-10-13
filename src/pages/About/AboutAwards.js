@@ -1,4 +1,4 @@
-import AwardsUrl from "../../components/Images/planet.png"
+import AwardsUrl from "../../components/Images/AboutAwards/trophy.png"
 import Typography from "../../components/Typography/Typography";
 import Surface from "../../components/Surface/Surface";
 import Container from "../../components/Container/Container";
@@ -8,7 +8,7 @@ import './AboutAwards.css'
 export default function AboutAwards() {
     return (
         <Surface className="SectionAwards">
-            <Container>
+
                 <div className="SectionAwards-rowOne">
                     <Typography variant="h1" paragraph>Awards</Typography>
                     <Typography variant="text2" color="grey">
@@ -28,13 +28,13 @@ export default function AboutAwards() {
 
                     <div className="SectionAwards-rowTwo_card">
                         <img className="SectionAwards-rowTwo_image" alt="img" src={AwardsUrl}/>
-                        <Typography variant="h3" paragraph>Award#1</Typography>
+                        <Typography variant="h3" paragraph>Award#2</Typography>
                         <Typography variant="h4" color="secondary" >This award's short description</Typography>
                     </div>
 
                     <div className="SectionAwards-rowTwo_card">
                         <img className="SectionAwards-rowTwo_image" alt="img" src={AwardsUrl}/>
-                        <Typography variant="h3" paragraph>Award#1</Typography>
+                        <Typography variant="h3" paragraph>Award#3</Typography>
                         <Typography variant="h4" color="secondary" >This award's short description</Typography>
                     </div>
 
@@ -52,12 +52,12 @@ export default function AboutAwards() {
                             </Typography>
                         </div>
                         <input className="SectionAwards-rowThree_boardButton" type="submit"
-                               value=" Let's collaborate"
+                               value=" Let's collaborate &#10142;"
                         />
                     </Container>
                 </div>
 
-            </Container>
+
         </Surface>
     )
 }

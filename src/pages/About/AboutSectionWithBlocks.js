@@ -20,7 +20,7 @@ export default function AboutSectionWithBlocks() {
                         future.
                     </Typography>
                     <input className="SectionWithBlocks-input" type="button"
-                           value="Let's collaborate"
+                           value="Let's collaborate &#10142;"
                     />
                 </div>
             </div>
@@ -38,7 +38,7 @@ export default function AboutSectionWithBlocks() {
 
                     </Typography>
                     <input className="SectionWithBlocks-input SectionWithBlocks-inputTwo" type="button"
-                           value="Join our team"
+                           value="Join our team &#10142;"
                     />
                 </div>
             </div>
