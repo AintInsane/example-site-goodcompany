@@ -1,0 +1,16 @@
+.CareerPositionsCard {
+
+    border: 1px solid black;
+}
+.CareerPositionsCard-row {
+    display: flex;
+}
+.CareerPositionsCard-cardElement_dept {
+    background: var(--backgroundAccent);
+    color: white;
+    padding: 4px;
+    height: 28px;
+}
+.CareerPositionsCard-cardElement_employment {
+    color: var(--backgroundAccent);
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import { Switch, Route, Redirect, useLocation } from 'react-router-dom'
 import About from "../../pages/About/About"
 import Home from "../../pages/Home/Home"
-import Random from "../../pages/Random/Random"
+import Career from "../../pages/Career/Career"
 import "./App.css"
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
             <Switch>
                 <Route path="/" exact component={Home}/>
                 <Route path="/about" component={About}/>
-                <Route path="/random" component={Random}/>
+                <Route path="/career" component={Career}/>
             </Switch>
         </div>
     )
